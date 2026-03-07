@@ -96,6 +96,22 @@
 
 **<a href="./docs/user-guide/app-builder-guide.en.md" target="_blank">📖 View detailed App Builder guide</a>**
 
+### 🔗 Workflow Builder
+
+- **Visual workflow editor**: Build AI pipelines with drag-and-drop nodes
+- **Diverse node types**: Text, Image, Video, Audio Input/Output & AI Model nodes
+- **Smart connections**: Only allows compatible data port connections
+- **Built-in templates**: Quick start with popular workflow templates
+- **Community templates**: Discover and use workflows shared by the community
+  - Open community workflows in **Read-Only** mode
+  - Click **Make a Copy** to create an editable version
+- **Publish and share**: Publish workflows to the community
+  - Update published workflows
+  - Unpublish when needed
+- **Asset management**: Upload and manage images, files used in workflows
+- **Run directly**: Execute workflows within the app using Google Gemini API
+- **Cost tracking**: Display real-time session cost
+
 ### 🔧 Backend Management
 
 - **Local Backend**: Run ComfyUI on your computer
@@ -251,6 +267,43 @@
 - More different camera angles create more creative results
 - Can edit auto-generated prompt to fine-tune results
 - Results automatically saved to active project
+
+### Using Workflow Builder
+
+#### Create a New Workflow
+
+1. Select the **Workflows** tab on the main navigation
+2. Click **+ New Workflow** to create a new workflow
+3. Use the **Side Toolbar** on the left or press **Tab** to open the node picker
+4. Drag and drop nodes onto the canvas:
+   - **Input nodes**: Text Input, Image Upload, Audio Input
+   - **AI Model nodes**: Gemini Nano Banana (images), Veo 3.1 (video)
+   - **Output nodes**: Text Output, Image Output, Video Output
+5. Connect nodes by dragging from an output port to an input port
+6. Click **Run** to execute the workflow
+
+#### Using Community Templates
+
+1. Go to **Workflows** tab → select **Community Templates** tab
+2. Browse shared workflows
+3. Click on a workflow to open it in **Read-Only** mode
+4. View node structure and connections
+5. Click **Make a Copy** (green button on toolbar) to create an editable version
+6. Edit and save your copy as needed
+
+#### Publishing a Workflow
+
+1. Open a saved workflow
+2. Click the **Publish** button (or **Update** if already published)
+3. Fill in details: name, description, category, cover image
+4. Click **Publish**
+5. To unpublish: click the **⋯** menu → **Unpublish**
+
+**💡 Notes:**
+- Community workflows open in read-only mode, cannot be edited directly
+- You need to make a copy before editing or running a community workflow
+- API costs are displayed in real-time on the toolbar
+- Workflows are automatically saved to local database
 
 ### Project Management
 

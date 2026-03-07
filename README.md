@@ -95,6 +95,22 @@
 
 **<a href="./docs/user-guide/app-builder-guide.md" target="_blank">📖 Xem hướng dẫn chi tiết App Builder</a>**
 
+### 🔗 Workflow Builder
+
+- **Trình tạo workflow trực quan**: Xây dựng pipeline AI bằng kéo thả node
+- **Hỗ trợ đa dạng node**: Text, Image, Video, Audio Input/Output & AI Model nodes
+- **Kết nối thông minh**: Chỉ cho phép kết nối các cổng dữ liệu tương thích
+- **Mẫu có sẵn**: Bắt đầu nhanh với các template workflow phổ biến
+- **Mẫu cộng đồng**: Khám phá và sử dụng workflow được chia sẻ bởi cộng đồng
+  - Mở workflow cộng đồng ở chế độ **Chỉ xem (Read-Only)**
+  - Nhấn **Tạo bản sao** để tạo phiên bản có thể chỉnh sửa
+- **Xuất bản và chia sẻ**: Xuất bản workflow lên cộng đồng
+  - Cập nhật workflow đã xuất bản
+  - Ngừng xuất bản khi cần
+- **Quản lý tài sản**: Upload và quản lý hình ảnh, tệp tin sử dụng trong workflow
+- **Chạy trực tiếp**: Thực thi workflow ngay trên ứng dụng với Google Gemini API
+- **Theo dõi chi phí**: Hiển thị chi phí phiên làm việc realtime
+
 ### 🔧 Quản Lý Backend
 
 - **Local Backend**: Chạy ComfyUI trên máy tính của bạn
@@ -250,6 +266,43 @@
 - Góc camera càng khác biệt, kết quả càng sáng tạo
 - Có thể chỉnh sửa prompt tự động để tinh chỉnh kết quả
 - Kết quả tự động lưu vào dự án đang active
+
+### Sử Dụng Workflow Builder
+
+#### Tạo Workflow Mới
+
+1. Chọn tab **Workflows** trên thanh điều hướng chính
+2. Click **+ New Workflow** để tạo workflow mới
+3. Sử dụng **Side Toolbar** bên trái hoặc nhấn **Tab** để mở bảng chọn node
+4. Kéo thả các node vào canvas:
+   - **Input nodes**: Text Input, Image Upload, Audio Input
+   - **AI Model nodes**: Gemini Nano Banana (ảnh), Veo 3.1 (video)
+   - **Output nodes**: Text Output, Image Output, Video Output
+5. Kết nối các node bằng cách kéo từ cổng output sang cổng input
+6. Click **Run** để thực thi workflow
+
+#### Sử Dụng Mẫu Cộng Đồng
+
+1. Vào tab **Workflows** → chọn tab **Mẫu cộng đồng**
+2. Duyệt danh sách workflow được chia sẻ
+3. Click vào workflow để mở ở chế độ **Chỉ xem (Read-Only)**
+4. Xem cấu trúc node và kết nối
+5. Click **Tạo bản sao** (nút xanh lá trên thanh công cụ) để tạo phiên bản chỉnh sửa được
+6. Chỉnh sửa và lưu bản sao theo ý muốn
+
+#### Xuất Bản Workflow
+
+1. Mở workflow đã lưu
+2. Click nút **Publish** (hoặc **Update** nếu đã xuất bản)
+3. Điền thông tin: tên, mô tả, danh mục, ảnh bìa
+4. Click **Xuất bản**
+5. Để ngừng xuất bản: click menu **⋯** → **Ngừng xuất bản**
+
+**💡 Lưu ý:**
+- Workflow cộng đồng mở ở chế độ chỉ xem, không thể chỉnh sửa trực tiếp
+- Cần tạo bản sao trước khi chỉnh sửa hoặc chạy workflow cộng đồng
+- Chi phí API được hiển thị realtime trên thanh công cụ
+- Workflow được lưu tự động vào cơ sở dữ liệu local
 
 ### Quản Lý Dự Án
 
