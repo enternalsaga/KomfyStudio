@@ -385,5 +385,5 @@ Copyright © 2026 Hà Mạnh Tuyến
 ---
 
 ## 🔗 Liên Kết
-- **YouTube**: <a href="https://youtube.com/@tuyenhm68" target="_blank">Kênh YouTube</a>
+- **YouTube**: <a href="https://www.youtube.com/channel/UCd3BHy2KUjBl1Z2cnrdLNFg" target="_blank">Kênh YouTube</a>
 ---
